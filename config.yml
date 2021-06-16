@@ -1,0 +1,9 @@
+metadata-file: metadata.yml  # file to use for metadata
+table-of-contents: true      # enabling table of contents
+toc-depth: 1                 # setitng max depth of 1 for table of contents
+number-sections: true        # setting to prefix headings with numbers
+variables:
+  documentclass: scrbook     # book,scrbook,article, etc. are supported document classes
+  fontsize: 14pt
+  classoption: openany       # disable empty pages in PDF
+  papersize: a4
